@@ -10,6 +10,9 @@
 
 
     <title>Seinfeld Hangman!</title>
+
+
+
 </head>
 
 <body>
@@ -17,26 +20,42 @@
     <h1 class="header">
         <img class="img" src="assets/images/seinfeld.png" alt="seinfeld" height="150" width="450px" align: "center">
         <p class="hangman">
-            <strong> HANGMAN</strong>
+            <strong> GUESS WHO HANGMAN</strong>
         </p>
     </h1>
 
     <div class="container">
         <br>
         <div class="sidebarA">
-            <img class="character" src="assets/images/mark.jpg">
+            <img class="character" src="assets/images/jerry.jpg">
         </div>
         <div class="sidebarB">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ratione dolor ipsum iste ipsam sequi hic omnis rem, necessitatibus fuga non, accusantium itaque consequatur dignissimos fugit quibusdam dicta eveniet. Exercitationem!
+            <div class="row">
+                <div>
+                    <br>
+                    <h2>Guess the word:</h2>
+                    <br>
+                    <p id="right"></p>
+                    <p>
+                        <span id="remain">10</span> guesses remain</p>
+                        <br><br>
 
-           
+                        <p >incorrect letters:</p>
+                    <p id="wrong"></p>
+                 
+                </div>
+            </div>
         </div>
-      
+
+        <script src="assets/javascript/game.js"></script>
 
     </div>
- 
 
-   
+
+    </div>
+
+
+
 </body>
 
 </html>

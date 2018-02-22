@@ -16,7 +16,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .hangman {
@@ -27,34 +27,36 @@ body {
     letter-spacing: 10px;
     padding-bottom: 20px;
 }
-.container{
-    border-block-end-color: violet;
-}
-.sidebarA{
+
+.sidebarA {
     display: block;
     background: white;
     width: 460px;
     float: left;
     height: 350px;
-    padding:10px;
-    
+    padding: 10px;
 }
-.sidebarB{
+
+.sidebarB {
     display: block;
     background: white;
     width: 460px;
     float: left;
     height: 350px;
-    padding:10px;
-    
+    padding: 10px;
     margin-left: 20px;
 }
- .character{
+
+.character {
     height: 300px;
-    width:300px;
-    display:block;
-    margin:0 auto;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
     padding-top: 35px;
-    
-     
+}
+.row{
+    color: crimson;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
 }
